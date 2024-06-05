@@ -1,0 +1,263 @@
+/* CSS Document */
+/****************/
+/* Author's name: Hannah O'Shea 
+Date: 5/15/2024
+File name: stylesheet.css 
+*/
+
+
+
+/* Future Font here */
+
+
+/* Fonts; Radio Canada & Roberto */
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada+Big:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+/*CSS Reset*/
+
+header, body, p, nav, nav ul, nav li, footer, img, ul, li, fieldset, form, .frmButton {
+	margin: 0; 
+    border: 0; 
+	padding: 0;
+}
+
+
+	 	 
+/*Mobile viewport */
+
+.mobile {
+	display:block; 
+}
+
+.mobile-navigation {
+	display:block;
+}
+
+.tabletDesktopNav {
+	display:none;
+}
+
+.tabletDesktop {
+	display:none; 
+}
+
+/* Main content styling */
+
+
+header {
+	top: 0; 
+	background-color: #08090A;
+	font-family:  "radio-canada", "roboto" , "sans-serif";
+}
+
+main {
+	font-family:  "radio-canada", "roboto" , "sans-serif";
+	clear: both;
+	padding: 2%; 
+	font-size: 1.25em;
+
+}
+
+body ul {
+	list-style-type: none;
+}
+
+ul a {
+	font-family:  "radio-canada", "roboto" , "sans-serif";
+	color: #7FBDDD; 
+	text-decoration: none;
+	list-style-type: none;
+}
+
+ul a:hover {
+	color: #213754;
+	background: #40658C;
+}
+
+nav a {
+	font-family: "radio-canada", "roboto" , "sans-serif";
+	font-size: .8em;
+	padding: 5px 2px 5px 2px;
+}
+
+
+nav li a {
+	text-decoration: none;
+	color: #3D6FAB;
+		
+}
+nav li {
+	display: inline;
+	padding: 0.5em; 
+	
+}
+
+nav li a:hover { 
+    background-color: #283965;
+	color: #5F80B4;
+
+}
+nav {
+	background-color: #08090A;
+	font-family: "sans-serif";
+	text-decoration: none;
+	color: #D4EFF4;
+	text-align: center;
+}
+h2 {
+	font-family:  "radio-canada", "roboto" , "sans-serif"; 
+	color: #5C95D1;
+	text-align: center;
+}
+
+blockquote {
+	padding: 10px 10px 10px 10px;
+	font-family:  "roboto" , "radio-canada", "sans-serif";
+	color: #B2C3ED;
+	text-align: center;
+}
+
+p {
+padding: 10px 10px 10px 10px;
+font-family:  "roboto" , "radio-canada", "sans-serif";
+color: #B2C3ED;
+}
+
+
+body { 
+
+background-color: #1E2025 ;
+font-family: "sans-serif";
+}
+
+
+footer nav li {
+	background: #08090A;
+	font-family: "sans-serif";
+	text-align: center;
+}
+
+.copyright {
+	text-align: center;
+	
+}
+
+footer { 
+	background-color: #08090A;
+	color: #B2C3ED;
+    text-align:center;
+	padding: 4px 4px 4px 4px;
+}
+
+footer nav li a {
+	background: #08090A;
+	font-family: "sans-serif";
+	text-align: center;
+}
+
+footer p {
+	font-size: 0.75em;
+	text-align: center;
+	color: #A2B4E9;
+	padding: 2% 4%;
+	width:75%;
+	margin: 0 auto;
+}
+
+footer p a {
+	color: #A2B4E9;
+	background:#08090A;
+	text-align: center;
+}
+
+
+ 
+
+/*Field Information*/
+
+fieldset, input, select, textarea {
+	margin-bottom: 2%;
+	color: #B2C3ED;
+}
+
+form {
+	font-family:  "radio-canada" , "roboto" ,"sans-serif";
+}
+
+label {
+	display:block; 
+	font-size: 1.25em;
+	font-family: "roboto" , "radio-canada", "sans-serif";
+}
+
+.btn {
+	font-family:"roboto" , "radio-canada", "sans-serif";
+	color: #456F94;
+	background: #1F345A;
+}
+
+.frmButton {
+	font-family: "roboto" , "radio-canada", "sans-serif";
+	color: #456F94;
+	background: #1F345A;
+}
+
+.frmButton a:hover {
+	color: #0F142C;
+    background: #6479BC;
+	font-family: "roboto" , "radio-canada", "sans-serif";
+}
+
+form .frmButton {
+	border: double, 5px, 5px, 5px, 5px; 
+	color:  #456F94;
+}
+
+/*Tablet Viewport */
+ @media screen and (min-width:630px),print{ 
+	 
+
+	.mobile {
+		display: none;
+	}
+	 
+	 .mobile-navigation {
+		 display: none;
+	 }
+
+	.tabletDesktopNav {
+		display: block;
+		font-size: 1.3em;
+	}
+
+	 .tabletDesktop {
+		display: block; 
+	}
+ 
+}
+/* Computer viewport */
+@media screen and (min-width:1015px) ,print{
+		 
+	 .mobile {
+		 display:none;
+	 }
+	
+	.mobile-navigation {
+		display:none;
+	}
+	 
+	 .tabletDesktopNav {
+		 display:block;
+		 font-size: 1.8em;
+	 }
+	 .tabletDesktop {
+		 display:block;
+	 }
+	
+}
+
+
+
